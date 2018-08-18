@@ -11,9 +11,10 @@ import com.fragmentation.test.base.BaseMainFragment;
 import com.fragmentation.test.fragment.first.child.FirstHomeFragment;
 
 /**
+ * 第一个导航页
+ *
  * Created by wxyass on 2018/8/17.
  */
-
 public class ZhihuFirstFragment extends BaseMainFragment{
 
     public static ZhihuFirstFragment newInstance(){

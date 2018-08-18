@@ -113,7 +113,6 @@ public class MainActivity extends SupportActivity implements BaseMainFragment.On
 
             }
         });
-
     }
 
     @Override

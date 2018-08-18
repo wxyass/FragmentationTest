@@ -10,6 +10,8 @@ import com.fragmentation.test.R;
 import com.fragmentation.test.base.BaseMainFragment;
 
 /**
+ * 第一个导航页的子Fragment
+ *
  * Created by wxyass on 2018/8/17.
  */
 

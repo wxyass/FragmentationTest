@@ -12,9 +12,10 @@ import com.fragmentation.test.fragment.first.ZhihuFirstFragment;
 import com.fragmentation.test.fragment.third.child.ShopFragment;
 
 /**
+ * 第三个导航页
+ *
  * Created by wxyass on 2018/8/17.
  */
-
 public class ZhihuThirdFragment extends BaseMainFragment{
 
     public static ZhihuThirdFragment newInstance(){

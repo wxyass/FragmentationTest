@@ -19,6 +19,5 @@ public class MyApplication extends Application {
                 .stackViewMode(Fragmentation.BUBBLE)
                 .debug(BuildConfig.DEBUG)
                 .install();
-
     }
 }

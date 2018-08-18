@@ -12,6 +12,8 @@ import com.fragmentation.test.fragment.first.ZhihuFirstFragment;
 import com.fragmentation.test.fragment.second.child.ViewPagerFragment;
 
 /**
+ * 第二个导航页
+ *
  * Created by wxyass on 2018/8/17.
  */
 
@@ -33,10 +35,16 @@ public class ZhihuSecondFragment extends BaseMainFragment{
     }
 
     @Override
-    public void onLazyInitView(@Nullable Bundle savedInstanceState) {
-        super.onLazyInitView(savedInstanceState);
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
         if(findChildFragment(ZhihuSecondFragment.class)==null){
             loadRootFragment(R.id.fl_second_container, ViewPagerFragment.newInstance());
         }
+    }
+
+    @Override
+    public void onLazyInitView(@Nullable Bundle savedInstanceState) {
+        super.onLazyInitView(savedInstanceState);
+        // 这里可以不用懒加载,因为Adapter的场景下,Adapter内的子Fragment只有在父Fragment是show状态时,才会被Attach,Create
     }
 }

@@ -33,7 +33,7 @@ public class BaseMainFragment extends SupportFragment {
     // 对返回键进行监听
     @Override
     public boolean onBackPressedSupport() {
-        // 在栈中的Fragment个数大于1
+        // 当前栈中的Fragment个数大于1
         if(getChildFragmentManager().getBackStackEntryCount()>1){
             popChild();
         }else{
