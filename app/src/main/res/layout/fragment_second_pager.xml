@@ -3,7 +3,7 @@
              android:id="@+id/fl_second_container"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             android:background="@color/colorPrimaryDark">
+             android:background="@android:color/white">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             app:tabSelectedTextColor="#007aff"
             app:tabMode="scrollable"
             app:tabGravity="fill"
-            app:tabBackground="@android:color/white"
+            app:tabBackground="@android:color/holo_red_dark"
             />
     </android.support.design.widget.AppBarLayout>
 

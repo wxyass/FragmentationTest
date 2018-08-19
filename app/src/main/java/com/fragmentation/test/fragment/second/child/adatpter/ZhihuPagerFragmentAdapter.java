@@ -4,8 +4,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.fragmentation.test.fragment.second.child.fragment.FirstPagerFragment;
-import com.fragmentation.test.fragment.second.child.fragment.OtherPagerFragment;
+import com.fragmentation.test.fragment.second.child.fragment.firstpager.FirstPagerFragment;
+import com.fragmentation.test.fragment.second.child.fragment.otherpager.OtherPagerFragment;
 
 /**
  * Created by wxyass on 2018/8/18.

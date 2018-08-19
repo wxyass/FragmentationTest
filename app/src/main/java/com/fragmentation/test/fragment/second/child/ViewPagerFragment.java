@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.fragmentation.test.R;
+import com.fragmentation.test.base.BaseFragment;
 import com.fragmentation.test.base.BaseMainFragment;
 import com.fragmentation.test.fragment.second.child.adatpter.ZhihuPagerFragmentAdapter;
 
@@ -16,7 +17,7 @@ import com.fragmentation.test.fragment.second.child.adatpter.ZhihuPagerFragmentA
  * Created by wxyass on 2018/8/17.
  */
 
-public class ViewPagerFragment extends BaseMainFragment{
+public class ViewPagerFragment extends BaseFragment {
 
     private TabLayout mTab;
     private ViewPager mViewPager;

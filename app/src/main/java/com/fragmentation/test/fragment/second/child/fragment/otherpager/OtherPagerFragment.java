@@ -1,4 +1,4 @@
-package com.fragmentation.test.fragment.second.child.fragment;
+package com.fragmentation.test.fragment.second.child.fragment.otherpager;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import com.fragmentation.test.R;
 import com.fragmentation.test.base.BaseMainFragment;
-import com.fragmentation.test.fragment.second.child.ViewPagerFragment;
 
 /**
  *

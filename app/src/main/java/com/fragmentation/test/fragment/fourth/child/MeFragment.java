@@ -7,13 +7,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.fragmentation.test.R;
+import com.fragmentation.test.base.BaseFragment;
 import com.fragmentation.test.base.BaseMainFragment;
 
 /**
  * Created by wxyass on 2018/8/17.
  */
 
-public class MeFragment extends BaseMainFragment{
+public class MeFragment extends BaseFragment {
 
     public static MeFragment newInstance(){
         Bundle args = new Bundle();
