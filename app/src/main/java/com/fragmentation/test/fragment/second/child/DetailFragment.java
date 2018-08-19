@@ -16,7 +16,6 @@ import com.fragmentation.test.base.BaseFragment;
 /**
  * Created by wxyass on 2018/8/19.
  */
-
 public class DetailFragment extends BaseFragment {
 
     private static final String ARG_TITLE = "arg_title";
@@ -100,8 +99,8 @@ public class DetailFragment extends BaseFragment {
             mToolbar.setTitle(mTitle);
 
             // 保存被改变的 title
-
-
+            getArguments().putString(ARG_TITLE, mTitle);
+            Toast.makeText(_mActivity, "修改标题成功!", Toast.LENGTH_SHORT).show();
         }
     }
 }
